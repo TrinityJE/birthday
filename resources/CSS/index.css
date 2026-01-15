@@ -1,0 +1,119 @@
+/* General Style */
+
+html {
+	background-color: #E2E7F1;
+	font-family: Calibri;
+	font-size: 16px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+hr {
+	width: 80%;
+}
+
+
+/* Banner */ 
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 150px;
+	width: 50%;
+}
+
+
+/* Title */
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+	font-family: "Montserrat Alternates";
+}
+
+/* Main */ 
+
+.info {
+	display: flex;
+	width: auto;
+	height: 200px;
+}
+
+.box {
+	display: block;
+	width: 40%;
+	height: 200px;
+	padding: 1%;
+}
+
+.when,
+.where,
+.practical {
+	flex: 50%;
+}
+
+h2 {
+	font-family: "Dancing Script";
+	text-align: center;
+}
+
+.info p {
+	font-family: "Montserrat Alternates";
+	font-weight: 600;
+	text-align: center;
+	padding-top: 4%;
+	line-height: 20%;
+}
+
+/* Program */ 
+
+.program {
+	display: flex;
+	width: auto;
+	height: 200px;
+	margin-top: 5%;
+}
+
+.prg {
+	width: 45%;
+	text-align: center;
+
+}
+
+.img {
+	width: 55%;
+}
+
+.program img {
+	width: 70%;
+	height: 200px;
+	padding: 1%;
+}
+
+
+/* Responsive design */
+
+
+@media only screen and (min-width: 1300px){
+	img {height: 150px; width: 40%;}
+	hr.line {margin-top: 50px;}
+	.program img {width: 60%; height: 230px;}
+}
+
+
+
+@media only screen and (max-width: 645px){
+	img {height: 100px; width: 50%;}
+	.info {flex-direction: column; height: 350px; width: 120%; margin-left: -50px;}
+	.when,
+	.where,
+	.practical {align-self: center; margin-right: 10px;}
+	h2 {color: blue;}
+	.program {margin-top: 60px; margin-left: 70px; display: block; width:140%}
+	.program img {width: 100%; margin-left: -30px;}
+	hr.line {margin-top: 180px;}
+}
