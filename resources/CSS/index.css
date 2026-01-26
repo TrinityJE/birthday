@@ -154,7 +154,7 @@ img {
 
 hr {
   width: 80%;
-  margin: 40px auto;
+  margin: 20px auto;
 }
 
 /* ===== Header ===== */
@@ -182,7 +182,7 @@ hr {
 .info {
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: 8 px 20px 20px;
   gap: 20px;
 }
 
@@ -193,6 +193,8 @@ hr {
 
 h2 {
   font-family: "Dancing Script", cursive;
+  margin-top: 8px;
+  margin-bottom: 12px;
 }
 
 .info p {
@@ -206,7 +208,7 @@ h2 {
 .program {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 8 px 20px 20px;
   gap: 20px;
 }
 
